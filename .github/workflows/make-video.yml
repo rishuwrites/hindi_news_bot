@@ -3,6 +3,7 @@ on:
   schedule:   # runs 45 min BEFORE each slot; the video is uploaded private and auto-publishes exactly at the slot
     - cron: "45 23 * * *"   # -> 06:00 IST
     - cron: "45 2 * * *"    # -> 09:00 IST
+    - cron: "5 11 * * *" # TEST: 4:35 PM IST
     - cron: "45 5 * * *"    # -> 12:00 IST
     - cron: "15 8 * * *"    # -> 14:30 IST
     - cron: "45 10 * * *"   # -> 17:00 IST
