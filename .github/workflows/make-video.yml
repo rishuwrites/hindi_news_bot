@@ -1,1 +1,60 @@
-
+name: make-news-short
+on:
+  schedule:   # runs 45 min BEFORE each slot; the video is uploaded private and auto-publishes exactly at the slot
+    - cron: "45 23 * * *"   # -> 06:00 IST
+    - cron: "45 2 * * *"    # -> 09:00 IST
+    - cron: "45 5 * * *"    # -> 12:00 IST
+    - cron: "15 8 * * *"    # -> 14:30 IST
+    - cron: "45 10 * * *"   # -> 17:00 IST
+    - cron: "45 12 * * *"   # -> 19:00 IST
+    - cron: "45 14 * * *"   # -> 21:00 IST
+  workflow_dispatch:
+    inputs:
+      publish_now:
+        description: "Publish immediately (turn off to schedule at the next slot)"
+        type: boolean
+        default: true
+      upload:
+        description: "Upload to YouTube (turn off to only make the video)"
+        type: boolean
+        default: true
+permissions: {contents: write}
+concurrency: {group: news-bot, cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - name: Install
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-core libraqm0 libfribidi0 libharfbuzz0b
+          pip install -r requirements.txt
+      - name: Make video and upload
+        run: python src/main.py
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PUBLISH_NOW: ${{ inputs.publish_now }}
+          DO_UPLOAD: ${{ inputs.upload }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          UPLOAD_PRIVACY: ${{ vars.UPLOAD_PRIVACY }}
+          CHANNEL_NAME: ${{ vars.CHANNEL_NAME }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: short, path: output/*, retention-days: 14, if-no-files-found: ignore}
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name bot; git config user.email bot@users.noreply.github.com
+          git add history.json slots.json used.json 2>/dev/null || true
+          git commit -m "state" || exit 0
+          git pull --rebase -q && git push || true
