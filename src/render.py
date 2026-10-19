@@ -13,20 +13,29 @@ def build_scenes(lines, times, tmp):
         for x in c: state["used"].add(x["id"])
         scenes.append({"line": ln["text"], "want": ln.get("visual", ""), "person": ln.get("person", ""), "cands": c})
     picks = picker.pick(scenes)
-    chosen_ids = set(); paths = []
-    for i, ln in enumerate(lines):
+    chosen_ids = set(); choice = []
+    for i in range(len(lines)):
         c = scenes[i]["cands"]
-        if picks is None:  # picker unavailable: first candidate not already used, but never a person-file guess
+        if picks is None:  # picker unavailable: first candidate not already used
             j = next((k for k, x in enumerate(c) if x["id"] not in chosen_ids), -1)
         else:
             j = picks[i] if 0 <= picks[i] < len(c) and c[picks[i]]["id"] not in chosen_ids else -1
+        if j >= 0: chosen_ids.add(c[j]["id"])
+        choice.append(c[j] if j >= 0 else None)
+    pool = [x for x in choice if x]                      # approved photos in this video
+    paths = []; r = 0
+    for i in range(len(lines)):
         seconds = times[i][1] - times[i][0]; p = f"{tmp}/s{i}.mp4"
-        if j >= 0:
-            x = c[j]; chosen_ids.add(x["id"]); state["credits"].append(x["credit"])
+        x = choice[i]
+        if x is None and pool:                            # reuse an approved photo (different zoom) instead of a gradient
+            x = pool[r % len(pool)]; r += 1; reused = True
+        else: reused = False
+        if x is not None:
+            if not reused: state["credits"].append(x["credit"])
             compose_still(x["path"], f"{tmp}/img{i}.jpg"); still_clip(f"{tmp}/img{i}.jpg", seconds, p, i)
-            print(f"  scene {i}: photo '{x['q']}' -> {x['id']}")
+            print(f"  scene {i}: {'reused ' if reused else ''}photo -> {x['id'][:70]}")
         else:
-            gradient_clip(seconds, p); print(f"  scene {i}: gradient (no suitable photo)")
+            gradient_clip(seconds, p); print(f"  scene {i}: gradient (no approved photo in whole video)")
         paths.append(p)
     return paths, state["credits"]
 
