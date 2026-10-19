@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+output/
+tmp/
+tmp_b/
+output_b/
