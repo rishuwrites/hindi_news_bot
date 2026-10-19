@@ -14,5 +14,8 @@ FEEDS = [
 ]
 TRENDS_URL = "https://trends.google.com/trending/rss?geo=IN"
 SLOTS_IST = [(6, 0), (9, 0), (12, 0), (14, 30), (17, 0), (19, 0), (21, 0)]
+ELEVEN_VOICE_ID = os.getenv("ELEVEN_VOICE_ID") or "pNInz6obpgDQGcFmaJgB"
+ELEVEN_MODEL = os.getenv("ELEVEN_MODEL") or "eleven_multilingual_v2"
+EDGE_VOICE = os.getenv("EDGE_VOICE") or "hi-IN-MadhurNeural"
 GEMINI_MODEL = "gemini-2.5-flash"
 W, H, FPS = 1080, 1920, 30
