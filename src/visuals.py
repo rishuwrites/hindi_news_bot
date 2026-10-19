@@ -41,7 +41,7 @@ def header_png(headline, path):
     d.text((50, 1700), CHANNEL_NAME, font=font(60), fill=(255, 255, 255), stroke_width=4, stroke_fill=(0, 0, 0))
     im.save(path)
 
-UA = {"User-Agent": "DeshKiNabzBot/1.0 (news shorts automation; github actions)"}
+UA = {"User-Agent": "DeshKiNabzBot/1.0 (https://github.com/rishuwrites-coder/hindi_news_bot; news shorts automation, contact via GitHub issues) python-requests"}
 _last = [0.0]
 
 def _clean(t):
@@ -49,12 +49,12 @@ def _clean(t):
 
 def _fetch(url):
     """Polite download (Wikimedia rate-limits hard): spacing + Retry-After handling."""
-    for _ in range(4):
-        wait = 1.0 - (time.time() - _last[0])
+    for _ in range(5):
+        wait = 1.6 - (time.time() - _last[0])
         if wait > 0: time.sleep(wait)
         r = requests.get(url, headers=UA, timeout=60); _last[0] = time.time()
         if r.status_code == 429:
-            d = min(int(r.headers.get("Retry-After", 5) or 5), 20); print(f"  429, waiting {d}s"); time.sleep(d); continue
+            d = min(int(r.headers.get("Retry-After", 8) or 8) + 4, 40); print(f"  429, waiting {d}s"); time.sleep(d); continue
         r.raise_for_status()
         return r.content
     raise RuntimeError("rate-limited")
@@ -85,7 +85,7 @@ def person_images(name):
     toks = [t.lower() for t in re.findall(r"\w+", name) if len(t) > 1]
     return [c for c in commons_images(f'"{name}"') if all(t in (c["id"] or "").lower() for t in toks)]
 
-def collect_candidates(line, state, tmp, idx, k=4):
+def collect_candidates(line, state, tmp, idx, k=3):
     """Download up to k candidate photos for one scene (person first, then specific, then general queries)."""
     plan = []
     if line.get("person"): plan.append(("person", line["person"]))
