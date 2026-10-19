@@ -22,24 +22,30 @@ def _models(key):
     return seen
 
 def gemini_json(parts, temperature=0.5):
+    """Tries many models, and retries whole rounds with backoff (503 'high demand' spikes are temporary)."""
     key = os.environ["GEMINI_API_KEY"]
     payload = {"contents": [{"parts": parts}],
                "generationConfig": {"responseMimeType": "application/json", "temperature": temperature}}
-    last = None
-    for m in _models(key)[:5]:
-        r = requests.post(f"{BASE}/models/{m}:generateContent", params={"key": key}, json=payload, timeout=180)
-        if r.status_code == 429:
-            print(f"  {m}: 429, waiting 25s"); time.sleep(25)
-            r = requests.post(f"{BASE}/models/{m}:generateContent", params={"key": key}, json=payload, timeout=180)
-        if r.status_code == 200:
+    models = _models(key)[:8]; last = None
+    for rnd, wait in enumerate([0, 20, 45, 90]):
+        if wait: print(f"  all models busy, retrying in {wait}s (round {rnd + 1})"); time.sleep(wait)
+        for m in models:
             try:
-                txt = r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
-                txt = txt.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
-                print("  using model", m); return json.loads(txt)
+                r = requests.post(f"{BASE}/models/{m}:generateContent", params={"key": key}, json=payload, timeout=180)
             except Exception as e:
-                last = f"{m}: bad response ({e})"; print(last); continue
-        last = f"{m}: {r.status_code} {r.text[:200]}"; print("  model failed ->", last)
-    raise SystemExit("All Gemini models failed. Last error: " + str(last))
+                last = f"{m}: {type(e).__name__}"; continue
+            if r.status_code == 200:
+                try:
+                    txt = r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+                    txt = txt.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+                    print("  using model", m); return json.loads(txt)
+                except Exception as e:
+                    last = f"{m}: bad response ({e})"; print(" ", last); continue
+            last = f"{m}: {r.status_code} {r.text[:120]}"
+            print("  model failed ->", m, r.status_code)
+            if r.status_code in (400, 401, 403):  # key/request problem, retrying other rounds will not help
+                if r.status_code != 400: raise SystemExit("Gemini key rejected: " + r.text[:300])
+    raise SystemExit("All Gemini models failed after retries. Last error: " + str(last))
 
 PROMPT = """आप भारतीय न्यूज़ शॉर्ट्स चैनल "देश की नब्ज़" के स्क्रिप्ट राइटर हैं।
 नीचे दिए हैं: (1) आज भारत में Google पर ट्रेंड हो रही खोजें, (2) अलग-अलग स्रोतों की ताज़ा ख़बरें, (3) पहले कवर हो चुके शीर्षक।
