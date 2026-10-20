@@ -4,4 +4,3 @@ trafilatura
 pillow
 edge-tts>=7.0.0
 gTTS
-python-latin-transliteration
