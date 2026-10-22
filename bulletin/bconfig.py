@@ -1,6 +1,6 @@
 import os
 BASE = os.path.dirname(os.path.abspath(__file__))
-SLOTS_IST = [(7, 0), (19, 0)]          # publish times (IST): 7 AM and 7 PM
+SLOTS_IST = [(8, 0), (20, 0)]          # publish times (IST): 8 AM and 8 PM
 W, H, FPS = 1920, 1080, 24
 MIN_SECONDS = 520                       # hard minimum (8:30 = 510s, plus margin)
 TARGET_SECONDS = 600                    # aim for ~10 minutes

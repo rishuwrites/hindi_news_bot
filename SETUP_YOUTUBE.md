@@ -22,4 +22,4 @@
    Until approved, videos arrive private (you can still download them from Actions > Artifacts).
 
 Manual run: Actions -> make-news-short -> Run workflow (tick "Publish immediately" or leave it off to schedule at next slot).
-Schedule: videos publish at 6:00, 9:00, 12:00, 14:30, 17:00, 19:00, 21:00 IST (job starts 45 min earlier, uploads as private + scheduled).
+Automated scheduler setup: see [SETUP_APPS_SCRIPT.md](SETUP_APPS_SCRIPT.md).

@@ -1,12 +1,9 @@
 name: news-bulletin-long
 on:
-  schedule:   # job starts ~2 hours before the slot; video is uploaded private and auto-publishes exactly at the slot
-    - cron: "30 23 * * *"   # 05:00 IST -> publishes 07:00 IST
-    - cron: "30 11 * * *"   # 17:00 IST -> publishes 19:00 IST
   workflow_dispatch:
     inputs:
       publish_now:
-        description: "Publish immediately (turn off to schedule at next 7 AM / 7 PM slot)"
+        description: "Publish immediately (turn off to schedule at next 8 AM / 8 PM slot)"
         type: boolean
         default: true
       upload:
