@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://timesofindia.indiatimes.com/india/bjp-veteran-lk-advani-discharged-from-delhi-hospital-after-health-improves/articleshow/135042056.cms",
-  "title": "लालकृष्ण आडवाणी अस्पताल से डिस्चार्ज, तबीयत में सुधार के बाद लौटे घर",
-  "topic": "advani-discharged-hospital",
-  "at": "2026-10-19T07:23:48.006872",
-  "uploaded": true
- },
- {
   "link": "https://www.thehindu.com/news/national/indian-air-ambulance-makes-emergency-landing-in-bangladesh-patient-dies/article71602262.ece",
   "title": "हवा में खुला एयर एम्बुलेंस का दरवाज़ा, ढाका में लैंडिंग",
   "topic": "indian air ambulance emergency landing bangladesh",
@@ -557,6 +550,13 @@
   "title": "IDBI Bank बिक्री विवाद: राहुल गांधी और निर्मला सीतारमण में तकरार",
   "topic": "idbi_bank_sale_controversy",
   "at": "2026-10-30T08:05:24.815509",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.bbc.com/hindi/articles/cr3el21gj8zvo?at_medium=RSS&at_campaign=rss",
+  "title": "Israel Election: बहुमत से चूके Netanyahu, किसे मिलेगी सत्ता?",
+  "topic": "israel-election-netanyahu-majority",
+  "at": "2026-10-30T09:37:29.669378",
   "uploaded": true
  }
 ]
