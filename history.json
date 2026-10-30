@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.thehindu.com/news/national/indian-air-ambulance-makes-emergency-landing-in-bangladesh-patient-dies/article71602262.ece",
-  "title": "हवा में खुला एयर एम्बुलेंस का दरवाज़ा, ढाका में लैंडिंग",
-  "topic": "indian air ambulance emergency landing bangladesh",
-  "at": "2026-10-19T08:17:20.409079",
-  "uploaded": true
- },
- {
   "link": "https://www.bbc.co.uk/hindi/live/c6vg0n3yx93mt?at_medium=RSS&at_campaign=rss",
   "title": "कश्मीर पर OIC को भारत का दो टूक जवाब: MEA ने ख़ारिज किए बयान",
   "topic": "oic-mea-jammu-kashmir",
@@ -557,6 +550,13 @@
   "title": "Israel Election: बहुमत से चूके Netanyahu, किसे मिलेगी सत्ता?",
   "topic": "israel-election-netanyahu-majority",
   "at": "2026-10-30T09:37:29.669378",
+  "uploaded": true
+ },
+ {
+  "link": "https://timesofindia.indiatimes.com/india/uttarakhand-helicopter-crash-chopper-went-missing-near-joshimath-passengers-were-from-bengaluru-what-we-know-so-far/articleshow/135356082.cms",
+  "title": "उत्तराखंड के जोशीमठ में बड़ा हादसा: बद्रीनाथ से लौट रहा हेलीकॉप्टर क्रैश",
+  "topic": "joshimath-helicopter-crash",
+  "at": "2026-10-30T11:16:27.319020",
   "uploaded": true
  }
 ]
