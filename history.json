@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/cm2d6rle8w7po?at_medium=RSS&at_campaign=rss",
-  "title": "SBI Data Leak: डार्क वेब पर लीक हुआ हज़ारों ग्राहकों का डेटा",
-  "topic": "sbi-data-leak",
-  "at": "2026-10-21T13:48:18.635511",
-  "uploaded": true
- },
- {
   "link": "https://www.hindustantimes.com/india-news/centre-orders-probe-as-indian-firms-key-making-error-leaves-holes-in-web-security-101792595177645.html",
   "title": "भारतीय फर्म की गलती से वेब सुरक्षा पर संकट, केंद्र ने दिए जांच के आदेश",
   "topic": "emudhra-security-keys-probe",
@@ -557,6 +550,13 @@
   "title": "रामलीला मैदान में INDIA गुट की महारैली, दिल्ली में कड़ी सुरक्षा",
   "topic": "india-bloc-rally-delhi",
   "at": "2026-11-01T06:37:08.826885",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.thehindu.com/news/national/karnataka/karnataka-thinking-of-officially-recognizing-kannada-flag-chief-minister-dk-shivakumar/article71652336.ece",
+  "title": "कर्नाटक के अपने झंडे को मिलेगी आधिकारिक मान्यता? सरकार का बड़ा कदम",
+  "topic": "karnataka kannada flag recognition",
+  "at": "2026-11-01T08:07:41.870619",
   "uploaded": true
  }
 ]
