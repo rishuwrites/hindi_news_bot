@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/cm93zxql0kvwo?at_medium=RSS&at_campaign=rss",
-  "title": "Reliance Jio IPO: जियो के आईपीओ ने खुलते ही बनाया बड़ा रिकॉर्ड, जानिए डिटेल",
-  "topic": "jio_ipo_record",
-  "at": "2026-10-21T17:42:30.024059",
-  "uploaded": true
- },
- {
   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaGl2eXdDcE5ydzdqODlUbDB5OGJjdkN6SXNMSWNJWVBBOGxGZDZvV1MwOVhzRldIcS0zY2tGR0Y3OXR3ZlZDa3NkTWt0T3JIM1NmUDA0TU92Y1E3M1IwU25qNlQ2VjE0VEZWSUh0RDdlUVhnVWIwcjh3Rlp1QjBqaWJrUkZXMmI0cWk3Ujd2ZTJBWnktNFBYbVVVUVJIX1hhQ1lJWXp1b0FqZVpWX3Z1SzVlRENlUjhiaC0xWFJ3Z201SFpjQ2ZEUVlIT3BKSTh1Y2VPMmZrai04OUZLLVo4OXNXZnRSN0VYUFpqTVN2d09HQ3c?oc=5",
   "title": "Marco Rubio India Visit: पाकिस्तान से रिश्ते पर अमेरिकी विदेश मंत्री का बड़ा बयान",
   "topic": "marco-rubio-india-visit",
@@ -557,6 +550,13 @@
   "title": "Himalayan Danger: हिमालय के संवेदनशील क्षेत्रों में बढ़ा ख़तरा",
   "topic": "himalayas disaster risk study",
   "at": "2026-11-01T11:08:20.350177",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.hindustantimes.com/india-news/cm-naidu-directs-officials-to-gear-up-as-fresh-cyclone-threat-looms-over-andhra-101793535357043.html",
+  "title": "आंध्र प्रदेश पर चक्रवाती तूफान का ख़तरा: 110 kmph हवाओं की चेतावनी",
+  "topic": "andhra_cyclone_alert",
+  "at": "2026-11-01T13:02:57.776909",
   "uploaded": true
  }
 ]
