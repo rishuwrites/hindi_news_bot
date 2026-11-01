@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.thehindu.com/news/national/kerala/orange-alert-for-4-keralam-districts-amid-heavy-rain-warning/article71606929.ece",
-  "title": "केरल में भारी बारिश का ऑरेंज अलर्ट, IMD की चेतावनी",
-  "topic": "kerala-rain-orange-alert",
-  "at": "2026-10-21T10:39:32.832034",
-  "uploaded": true
- },
- {
   "link": "https://www.bbc.com/hindi/articles/cm2d6rle8w7po?at_medium=RSS&at_campaign=rss",
   "title": "SBI Data Leak: डार्क वेब पर लीक हुआ हज़ारों ग्राहकों का डेटा",
   "topic": "sbi-data-leak",
@@ -557,6 +550,13 @@
   "title": "पंचकुला के स्कूल में बच्ची से मारपीट, प्रिंसिपल समेत तीन पर केस दर्ज",
   "topic": "panchkula school assault",
   "at": "2026-11-01T04:34:45.469100",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.hindustantimes.com/india-news/bsf-deployed-at-delhi-gurugram-border-as-security-tightened-ahead-of-india-bloc-rally-101793513617596.html",
+  "title": "रामलीला मैदान में INDIA गुट की महारैली, दिल्ली में कड़ी सुरक्षा",
+  "topic": "india-bloc-rally-delhi",
+  "at": "2026-11-01T06:37:08.826885",
   "uploaded": true
  }
 ]
