@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/c54g1pyeej70o?at_medium=RSS&at_campaign=rss",
-  "title": "दिवाली से पहले धड़ाम हुए सोने और चांदी के दाम, जानिए ताज़ा कीमतें",
-  "topic": "gold silver price drop",
-  "at": "2026-10-24T07:58:02.469306",
-  "uploaded": true
- },
- {
   "link": "https://www.thehindu.com/news/national/karnataka/kpsc-paper-leak-case-karnataka-cm-sanctions-prosecution-of-suspended-ias-officer-gyanendra-kumar-gangwar/article71619334.ece",
   "title": "KPSC Paper Leak: घूसखोरी मामले में फंसे IAS अधिकारी पर चलेगा मुकदमा",
   "topic": "kpsc-paper-leak-ias-prosecution",
@@ -557,6 +550,13 @@
   "title": "दिल्ली पुलिस मुख्यालय के बाहर प्रदर्शन, एसीपी निलंबित",
   "topic": "delhi-police-protest",
   "at": "2026-11-03T09:33:02.524820",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.bbc.com/hindi/articles/cm3wv0e9x32jo?at_medium=RSS&at_campaign=rss",
+  "title": "उमर अब्दुल्लाह सरकार पर संकट, सांसद आगा सैयद रुहुल्लाह का इस्तीफा",
+  "topic": "omark-abdullah-jk-crisis",
+  "at": "2026-11-03T11:07:34.016104",
   "uploaded": true
  }
 ]
