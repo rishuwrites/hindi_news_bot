@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.co.uk/hindi/live/cqx2v3gzpyy3t?at_medium=RSS&at_campaign=rss",
-  "title": "1 नवंबर को दिल्ली में कांग्रेस की महारैली, चुनाव आयोग पर बड़ा मोर्चा",
-  "topic": "congress-mega-rally-november",
-  "at": "2026-10-24T04:36:45.106403",
-  "uploaded": true
- },
- {
   "link": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-cm-naidu-orders-alertness-disaster-planning-ahead-of-cyclone-rainfall/article71619149.ece",
   "title": "बंगाल की खाड़ी में चक्रवात का खतरा: आंध्र प्रदेश में अलर्ट जारी",
   "topic": "bay-of-bengal-cyclone-alert",
@@ -557,6 +550,13 @@
   "title": "Nepal Helicopter Crash: माउंट एवरेस्ट के पास दो हेलीकॉप्टर टकराए",
   "topic": "nepal helicopter crash",
   "at": "2026-11-03T06:38:02.018405",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.hindustantimes.com/india-news/indigo-passenger-booked-for-tampering-with-emergency-exit-mechanism-on-pune-bound-flight-101793691222553.html",
+  "title": "इंडिगो विमान में यात्री ने की इमरजेंसी एग्जिट से छेड़छाड़, मामला दर्ज",
+  "topic": "indigo flight emergency exit",
+  "at": "2026-11-03T07:58:00.411727",
   "uploaded": true
  }
 ]
