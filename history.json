@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/c8r4ydy1yvp0o?at_medium=RSS&at_campaign=rss",
-  "title": "बिहार राजनीति: विधायक अनंत सिंह JDU से 6 साल के लिए निष्कासित",
-  "topic": "anant singh jdu expulsion",
-  "at": "2026-10-25T01:34:48.434405",
-  "uploaded": true
- },
- {
   "link": "https://www.thehindu.com/news/national/cyclone-andhra-pradesh-odisha-live-updates-october-25-2026/article71622459.ece",
   "title": "Andhra Odisha Cyclone Alert: चक्रवात को लेकर ओडिशा और आंध्र प्रदेश में हाई अलर्ट",
   "topic": "andhra odisha cyclone alert",
@@ -557,6 +550,13 @@
   "title": "UN में पाकिस्तान के प्रस्ताव के ख़िलाफ़ भारत का वोट, रूस ने किया समर्थन",
   "topic": "un-vote-pakistan-resolution",
   "at": "2026-11-04T03:06:18.096882",
+  "uploaded": true
+ },
+ {
+  "link": "https://timesofindia.indiatimes.com/india/fir-against-prashant-bhushan-for-sharing-fake-video-of-russian-minister-criticising-india/articleshow/135521291.cms",
+  "title": "प्रशांत भूषण पर एफआईआर, रूस के मंत्री का फर्जी वीडियो शेयर करने का मामला",
+  "topic": "prashant-bhushan-fir",
+  "at": "2026-11-04T04:34:21.450464",
   "uploaded": true
  }
 ]
