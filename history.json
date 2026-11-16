@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/cm3wvvnx1z31o?at_medium=RSS&at_campaign=rss",
-  "title": "इसराइल में बदल सकती है सत्ता, जानिए नया समीकरण",
-  "topic": "israel prime minister gadi eizenkot",
-  "at": "2026-11-06T13:00:33.914473",
-  "uploaded": true
- },
- {
   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV3NmbjByRlBIUno3NTN6STNBTEFuamItbWFzM1p2YW5MbFR3d2NwajdUQzBEYmhoUUx3ZDB0YkZKSEZ5OF9JUmZoN1Q5eW5YVTZiSlpZMEYyWVE4NHJPU0VwdHA2R3dkMlZFRG5sMnZkNnFBREI3V2lqVWFSWVg5R0JibDZXem02TFpSRGxSRTh4SmVNR2MzSzBITDg1aGg1dUJqUWwyT3RPOC1PZV9rLTEzZDd0d0xrbWV4LU9mODVMY3ZiaVNhZ3YtWEk0dHg5VGfSAdcBQVVfeXFMUHZOZzM5ZWV3dHZ6el9QRXY0Rk02NGZod3pQTGdieHcxRFNPbmJaemJCb1lyTERRUm1QUGthLW03SWxGdksyd2FTM3JxY3EzempjdllydmFDS1MyeGJuVlFFVE9Hc3V3YmhwRU91WmJWT1A4cGp6OEpmRGdKSklZSVRHbjhibms1OEc5aXcxT3BScThkWDhMdFAtbXZpX3JTRG5IYmlJZnhDc1BzaEtlXzZIa2swRGMzRHRjbWJ1WDhnNUpkbmg5WDJZd05SaVNIYWpXQW9oWjQ?oc=5",
   "title": "दिल्ली-NCR में बढ़ा प्रदूषण: GRAP-3 लागू, 5वीं तक स्कूल बंद",
   "topic": "delhi-pollution-grap3",
@@ -557,6 +550,13 @@
   "title": "Bilkis Bano Case: सुप्रीम कोर्ट ने 2 दोषियों की सजा रोकी, मिली जमानत",
   "topic": "bilkis_bano_case_sc",
   "at": "2026-11-16T11:12:07.963985",
+  "uploaded": true
+ },
+ {
+  "link": "https://timesofindia.indiatimes.com/india/520-drains-discharge-wastewater-in-the-yamuna-sc-raps-admin-over-rising-pollution-despite-huge-spending/articleshow/135887789.cms",
+  "title": "यमुना प्रदूषण पर SC की सख्त टिप्पणी, CPCB को दिए ये निर्देश",
+  "topic": "yamuna_pollution_sc_order",
+  "at": "2026-11-16T13:02:18.309934",
   "uploaded": true
  }
 ]
