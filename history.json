@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5nZ0wxUURmcHpudWtkVFM3M0ZfU0dGS01IenNiMURaOFpVT2NhcVkzamlvbS05Q2VaUUZGNmpSdk9RNjk5V2xCZHFuTTN2bkFfM3NVRTAzYw?oc=5",
-  "title": "भारत की नई ताकत 'प्रलय' मिसाइल का सफल परीक्षण",
-  "topic": "pralay missile test",
-  "at": "2026-11-06T01:33:30.742809",
-  "uploaded": true
- },
- {
   "link": "https://www.bbc.co.uk/hindi/live/cwe9llnvvlpmt?at_medium=RSS&at_campaign=rss",
   "title": "Delhi Gaffar Market Fire: करोल बाग की इमारत में लगी भीषण आग, दमकल की गाड़ियां मौके पर",
   "topic": "gaffar market fire delhi",
@@ -557,6 +550,13 @@
   "title": "PM Modi Manila Visit: आसियान समिट में हिस्सा लेने फिलीपींस पहुंचे",
   "topic": "pm-modi-asean-summit-manila",
   "at": "2026-11-16T03:09:02.545596",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/police-bust-examination-cheating-racket-in-jammu-14-arrested/article71706738.ece",
+  "title": "जम्मू में SSB भर्ती परीक्षा में नक़ल गिरोह पकड़ा गया, 14 अरेस्ट",
+  "topic": "jammu-exam-cheating-racket",
+  "at": "2026-11-16T04:43:54.667824",
   "uploaded": true
  }
 ]
