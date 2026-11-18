@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/cm17k4pl0w48o?at_medium=RSS&at_campaign=rss",
-  "title": "लॉबिंग फ़र्म रिपोर्ट पर विवाद, विदेश मंत्रालय ने दिया जवाब",
-  "topic": "us lobbying firm phone call controversy",
-  "at": "2026-11-08T09:34:42.641918",
-  "uploaded": true
- },
- {
   "link": "https://timesofindia.indiatimes.com/india/spreading-propaganda-against-ayodhya-out-of-fear-yogi-adityanath-targets-sp-congress/articleshow/135656207.cms",
   "title": "अयोध्या विकास पर सीएम योगी का सपा और कांग्रेस पर बड़ा हमला",
   "topic": "ayodhya-politics-yogi-akhilesh",
@@ -557,6 +550,13 @@
   "title": "मनीला में क्वाड शिखर सम्मेलन, पीएम मोदी की चर्चा",
   "topic": "pm-modi-manila-visit",
   "at": "2026-11-18T09:42:28.060226",
+  "uploaded": true
+ },
+ {
+  "link": "https://indianexpress.com/article/india/workers-killed-conveyor-belt-collapses-ntpc-project-chatra-jharkhand-10968469/",
+  "title": "झारखंड में एनटीपीसी प्रोजेक्ट में हादसा, तीन मजदूरों की मौत",
+  "topic": "ntpc jharkhand accident",
+  "at": "2026-11-18T13:13:43.505167",
   "uploaded": true
  }
 ]
