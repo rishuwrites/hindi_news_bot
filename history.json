@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.co.uk/hindi/live/c317k7p4ndjet?at_medium=RSS&at_campaign=rss",
-  "title": "तुर्की की स्टील फैक्ट्री में भीषण धमाका, 17 की मौत",
-  "topic": "turkey steel factory blast",
-  "at": "2026-11-10T04:34:39.121112",
-  "uploaded": true
- },
- {
   "link": "https://timesofindia.indiatimes.com/india/what-made-sonia-gandhi-turn-down-pm-post-after-upas-2004-victory-memoir-revisits-moment/articleshow/135699936.cms",
   "title": "सोनिया गांधी ने किताब में किया बड़ा खुलासा, 2004 में क्यों ठुकराया था प्रधानमंत्री का पद",
   "topic": "sonia-gandhi-memoir",
@@ -557,6 +550,13 @@
   "title": "Agniveer Scheme: अग्निवीरों को मिलेगी 2 साल की अतिरिक्त सेवा",
   "topic": "agniveer-service-extension",
   "at": "2026-11-20T11:09:06.335202",
+  "uploaded": true
+ },
+ {
+  "link": "https://indianexpress.com/article/india/rajasthan-panchayat-election-results-congress-jaipur-bjp-setback-10971641/",
+  "title": "Rajasthan Panchayat Election Results: राजस्थान में कांग्रेस की बड़ी जीत",
+  "topic": "rajasthan-panchayat-elections",
+  "at": "2026-11-20T13:06:34.788994",
   "uploaded": true
  }
 ]
