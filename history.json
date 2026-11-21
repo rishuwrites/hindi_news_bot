@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/cqj9k98gl1j3o?at_medium=RSS&at_campaign=rss",
-  "title": "सोनिया गांधी ने किताब में किया बड़ा खुलासा, जानिए क्यों ठुकराया था पीएम पद",
-  "topic": "sonia-gandhi-book",
-  "at": "2026-11-10T11:12:10.248955",
-  "uploaded": true
- },
- {
   "link": "https://www.hindustantimes.com/india-news/telangana-govt-seeks-loan-relief-for-farmers-hit-by-el-ni-o-induced-drought-101794315082952.html",
   "title": "Telangana Drought Relief: तेलंगाना सरकार ने सूखा प्रभावित किसानों के लिए की लोन राहत की मांग",
   "topic": "telangana-drought-relief",
@@ -557,6 +550,13 @@
   "title": "नेपाल पीएम बालेन शाह का पहला भारत दौरा, पीएम मोदी से करेंगे वार्ता",
   "topic": "nepal_pm_india_visit",
   "at": "2026-11-21T04:42:06.242267",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.hindustantimes.com/india-news/pm-modi-to-visit-lucknow-for-national-skills-convocation-felicitate-52-toppers-today-101795242282947.html",
+  "title": "PM Modi Lucknow Visit: 52 स्किल टॉपर्स को करेंगे सम्मानित",
+  "topic": "pm-modi-lucknow-visit",
+  "at": "2026-11-21T06:41:04.858302",
   "uploaded": true
  }
 ]
