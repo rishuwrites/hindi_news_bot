@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.co.uk/hindi/live/c8lydwxxrr5nt?at_medium=RSS&at_campaign=rss",
-  "title": "अभिषेक बनर्जी के घर बाहर चला बुलडोज़र, टीएमसी-बीजेपी में घमासान",
-  "topic": "abhishek banerjee bulldozer action",
-  "at": "2026-11-12T06:39:53.440307",
-  "uploaded": true
- },
- {
   "link": "https://timesofindia.indiatimes.com/india/owaisis-aimim-chandrashekhar-azads-party-announce-alliance-for-2027-up-polls/articleshow/135759434.cms",
   "title": "UP Elections 2027: ओवैसी और चंद्रशेखर आजाद का गठबंधन, आजाद CM उम्मीदवार",
   "topic": "up_polls_owaisi_azad_alliance",
@@ -557,6 +550,13 @@
   "title": "Haryana Military Drill Accident: 2 Indian Army Jawans Martyred",
   "topic": "haryana army drill accident",
   "at": "2026-11-23T03:07:14.756793",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.thehindu.com/sci-tech/health/hpv-vaccination-campaign-every-dose-is-step-towards-protecting-girls-from-cervical-cancer-says-pm-modi/article71733348.ece",
+  "title": "1 करोड़ HPV वैक्सीन डोज का आंकड़ा पार, पीएम मोदी ने जताई खुशी",
+  "topic": "hpv vaccination milestone",
+  "at": "2026-11-23T04:36:20.631697",
   "uploaded": true
  }
 ]
