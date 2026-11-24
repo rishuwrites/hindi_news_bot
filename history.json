@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/cmlyd67n33xwo?at_medium=RSS&at_campaign=rss",
-  "title": "Microsoft Outage: भारत समेत दुनियाभर में माइक्रोसॉफ़्ट की सेवाएं ठप",
-  "topic": "microsoft-global-outage",
-  "at": "2026-11-13T07:59:58.722873",
-  "uploaded": true
- },
- {
   "link": "https://timesofindia.indiatimes.com/india/my-phone-tapped-rahul-gandhi-makes-big-charge-doubles-down-on-debate-challenge-to-pm-modi/articleshow/135796258.cms",
   "title": "राहुल गांधी का केंद्र पर फोन टैपिंग का आरोप, PM को बहस की चुनौती",
   "topic": "rahul-gandhi-phone-tapping-allegation",
@@ -557,6 +550,13 @@
   "title": "Punjab Politics: BJP और अकाली दल का गठबंधन, 2027 चुनाव साथ लड़ेंगे",
   "topic": "bjp_akali_dal_punjab_alliance",
   "at": "2026-11-24T08:00:48.431034",
+  "uploaded": true
+ },
+ {
+  "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUnVXemVzM2d5R0dvWlBzb0JSZ0M5MGpyTHZfX2Y3ZUhxa19rdUthMWtrUU5VOFZxVC1LN2FLUUhHVTNMQnk3RUJEV1l2R3I4NmlxYkNRSkY4c253VHY3ek1XTVM2Nk5qSVp1Q2oxT1dyNVlNODh6UV9kT0EwTXdPVjhTUk8wLTVTM1pJY3liUG9JczhTb0UzZFZBLUU4WEppUkpvWi1UWXhsSE1YTk5DLTRtRGR2SEdDTnBqa19ZeGVMMTZ4aWhORFZCa2ljWDc4ZUpDU2FKSll1TGJfLWFvNWg3QXl4ZlQweUdz?oc=5",
+  "title": "Punjab Politics: 6 साल बाद फिर साथ आए BJP और अकाली दल, 2027 चुनाव पर बड़ा ऐलान",
+  "topic": "bjp-akali-dal-alliance",
+  "at": "2026-11-24T09:37:51.331009",
   "uploaded": true
  }
 ]
