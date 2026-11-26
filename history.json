@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/cqx2eyvnkx2ko?at_medium=RSS&at_campaign=rss",
-  "title": "U19 Asia Cup Final: पाक को हराकर भारत बना चैंपियन, आखिरी गेंद पर जीत",
-  "topic": "u19-asia-cup-final",
-  "at": "2026-11-15T01:43:01.219314",
-  "uploaded": true
- },
- {
   "link": "https://www.thehindu.com/news/national/shooter-wanted-in-murder-of-influencer-mad-sandhu-among-2-arrested-were-planning-attack-on-amitabh-bachchan/article71704007.ece",
   "title": "Delhi Police Foils Attack Plan On Amitabh Bachchan | Big Arrests",
   "topic": "amitabh-bachchan-attack-plot-foiled",
@@ -557,6 +550,13 @@
   "title": "अमेरिका के नए टैरिफ प्रस्ताव पर भारत का कड़ा रुख",
   "topic": "us-tariffs-india",
   "at": "2026-11-26T03:04:29.300699",
+  "uploaded": true
+ },
+ {
+  "link": "https://timesofindia.indiatimes.com/india/zero-tolerance-for-terrorism-eam-jaishankar-remembers-26/11-victims-on-attack-anniversary/articleshow/136177873.cms",
+  "title": "26/11 Mumbai Attack Anniversary: एस जयशंकर ने दी श्रद्धांजलि, आतंकवाद पर जीरो टॉलरेंस",
+  "topic": "mumbai 26 11 anniversary",
+  "at": "2026-11-26T04:34:23.069814",
   "uploaded": true
  }
 ]
