@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.co.uk/hindi/live/c6lymxngd48rt?at_medium=RSS&at_campaign=rss",
-  "title": "Jay Shah Re-Elected ICC Chairman: फिर बने आईसीसी अध्यक्ष",
-  "topic": "jay-shah-icc-chairman",
-  "at": "2026-11-16T06:40:41.396024",
-  "uploaded": true
- },
- {
   "link": "https://www.hindustantimes.com/india-news/new-work-order-placed-eci-s-it-dept-under-senior-deputy-commissioner-s-oversight-poll-body-tells-sc-101794814249212.html",
   "title": "ECI का सुप्रीम कोर्ट में हलफनामा: IT विभाग पर बढ़ा कंट्रोल",
   "topic": "eci_supreme_court_affidavit",
@@ -557,6 +550,13 @@
   "title": "संसद के विशेष सत्र में परिसीमन बिल पर सियासी संग्राम",
   "topic": "special session delimitation bill",
   "at": "2026-11-27T07:58:10.154403",
+  "uploaded": true
+ },
+ {
+  "link": "https://timesofindia.indiatimes.com/india/suspected-jaish-terrorist-planned-attack-on-security-establishment-gujarat-ats/articleshow/136214666.cms",
+  "title": "वडोदरा एयरफ़ोर्स स्टेशन पर साज़िश नाकाम, जैश का संदिग्ध पकड़ा गया",
+  "topic": "vadodara-terror-plot-foiled",
+  "at": "2026-11-27T09:41:19.934985",
   "uploaded": true
  }
 ]
