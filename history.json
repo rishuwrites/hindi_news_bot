@@ -1,12 +1,5 @@
 [
  {
-  "link": "https://www.bbc.com/hindi/articles/cm9d7pe0eqd9o?at_medium=RSS&at_campaign=rss",
-  "title": "Bilkis Bano Case: सुप्रीम कोर्ट ने 2 दोषियों की सजा रोकी, मिली जमानत",
-  "topic": "bilkis_bano_case_sc",
-  "at": "2026-11-16T11:12:07.963985",
-  "uploaded": true
- },
- {
   "link": "https://timesofindia.indiatimes.com/india/520-drains-discharge-wastewater-in-the-yamuna-sc-raps-admin-over-rising-pollution-despite-huge-spending/articleshow/135887789.cms",
   "title": "यमुना प्रदूषण पर SC की सख्त टिप्पणी, CPCB को दिए ये निर्देश",
   "topic": "yamuna_pollution_sc_order",
@@ -557,6 +550,13 @@
   "title": "IPL 2027: रोहित शर्मा फिर बने मुंबई इंडियंस के कप्तान",
   "topic": "rohit-sharma-mi-captain",
   "at": "2026-11-27T13:05:51.008468",
+  "uploaded": true
+ },
+ {
+  "link": "https://www.hindustantimes.com/india-news/chandrababu-naidu-kumaraswamy-call-50-lok-sabha-expansion-win-win-urge-opposition-consensus-101795828445792.html",
+  "title": "परिसीमन बिल पर चंद्रबाबू नायडू का बड़ा बयान | Delimitation Bill",
+  "topic": "delimitation-naidu-support",
+  "at": "2026-11-28T01:37:36.225933",
   "uploaded": true
  }
 ]
